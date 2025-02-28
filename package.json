@@ -9,7 +9,7 @@
     "@types/node": "^22.10.5"
   },
   "scripts": {
-    "test": "npx playwright test --headed",
+    "test": "npx playwright test",
     "ui": "npx playwright test --ui",
     "allure-generete":"allure generate --clean ./allure-results -o ./allure-report",
     "allure-Open":"allure open ./allure-report"
