@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "allure-playwright": "^3.2.0",
     "dotenv": "^16.4.7",
     "playwright": "^1.49.1"
   },
@@ -9,6 +10,8 @@
   },
   "scripts": {
     "test": "npx playwright test --headed",
-    "ui": "npx playwright test --ui"
+    "ui": "npx playwright test --ui",
+    "allure-generete":"allure generate --clean ./allure-results -o ./allure-report",
+    "allure-Open":"allure open ./allure-report"
   }
 }
