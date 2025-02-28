@@ -19,7 +19,7 @@ test("DropDown test",async({page})=>{
   await page.pause()
 })
 
-test.only("Work different Tabs",async({browser})=>{
+test("Work different Tabs",async({browser})=>{
   const context=browser.newContext();
   const page1=await (await context).newPage()
 
