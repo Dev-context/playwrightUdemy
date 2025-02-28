@@ -1,17 +1,17 @@
 {
   "dependencies": {
-    "allure-playwright": "^3.2.0",
     "dotenv": "^16.4.7",
     "playwright": "^1.49.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.5"
+    "@types/node": "^22.10.5",
+    "allure-playwright": "^3.2.0"
   },
   "scripts": {
     "test": "npx playwright test",
     "ui": "npx playwright test --ui",
-    "allure-generete":"allure generate --clean ./allure-results -o ./allure-report",
-    "allure-Open":"allure open ./allure-report"
+    "allure-generete": "allure generate ./allure-results --clean",
+    "allure-Open": "allure open ./allure-report"
   }
 }
