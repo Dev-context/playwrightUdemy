@@ -15,6 +15,10 @@ export default class Login{
         this.loginButton=page.locator("#login")
     }
 
+    async toGo(){
+        await this.page.goto("");
+    }
+    
     async login(email:string|any,password:string|any){
         await this.email.fill(email)
         await this.password.fill(password)

@@ -4,6 +4,7 @@
     "playwright": "^1.49.1"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.5",
     "allure-playwright": "^3.2.0"

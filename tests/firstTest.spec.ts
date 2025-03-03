@@ -1,6 +1,5 @@
 //@ts-check
 import { expect, test } from "@playwright/test";
-import { only } from "node:test";
 
 test("Login", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
